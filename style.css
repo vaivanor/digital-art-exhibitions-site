@@ -1,0 +1,621 @@
+html, body 
+{
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+/*NAVIGACIJOS JUOSTA---------------------------*/
+nav
+{
+    background-color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 0px 0px 5px grey;
+}
+#logo2
+{
+    width: 200px;
+    height: auto;
+}
+#menu
+{
+    border:none;
+}
+#menu:hover
+{
+    filter:drop-shadow(1px 1px 2px grey)
+}
+.fa-bars
+{
+    color: black;
+}
+.fa-search
+{
+    color: black;
+}
+#paskyra
+{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5%;
+    background-color: #e57623;
+    color: white;
+    text-decoration: none;
+    border:none;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+}
+#paskyra:hover
+{
+    background-color: #d66f29;
+    box-shadow: 1px 1px 4px grey;
+    transform: scale(1.05);
+}
+#paskyra:active
+{
+    background-color: #cc6a29;
+}
+.paieska
+{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right:5px;
+}
+#nava
+{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#nava:hover
+{
+    color: #e57623;
+}
+/*NAVIGAZIJOS JUOSTOS PABAIGA-------------------*/
+/*APATINĖ PUSLAPIO EILUTĖ------------------------*/
+footer
+{
+    background-color: #e57623;
+    bottom: 0;
+    margin-top: 12%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+footer p
+{
+    margin: 0;
+}
+#ikona
+{
+    height: 20px;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+#info
+{
+    margin-top: 20px;
+}
+#infot
+{
+    margin-left: 10%;
+}
+footer a
+{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+/*APATINĖ PUSLAPIO EILUTĖ PABAIGA---------------*/
+/*-------------------------------------*/
+.fonasp
+{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fonasr
+{
+    background-image: url(images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fonaspa
+{
+    background-image: url(images/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#parastes
+{
+    padding: 3%;
+    border-radius: 10px;
+    margin-left:7%;
+    margin-right:20%;
+    margin-bottom:5%;
+    margin-top:7%;
+}
+#parastes2
+{
+    background-color: white;
+    padding: 3%;
+    border-radius: 10px;
+    margin-left:19%;
+    margin-right:9%;
+    margin-bottom:5%;
+    margin-top:8%;
+}
+#parastes1
+{
+    background-color: white;
+    padding: 3%;
+    border-radius: 10px;
+    margin-left:9%;
+    margin-right:20%;
+    margin-bottom:5%;
+    margin-top:8%;
+}
+#parastes2:hover, #parastes1:hover
+{
+    box-shadow: 2px 2px 12px #2A4779;
+}
+.logo
+{
+    width: 80%;
+    height: auto;
+    margin-bottom: 5%;
+}
+#prisijungimastekstas
+{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+#pr
+{
+    font-family: 'Segoe UI';
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 4%;
+}
+#prreg
+{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    color: #e57623;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#prreg1
+{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    color: #e57623;
+    margin-bottom: 9%;
+}
+#priv
+{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+.ivedimas
+{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+/*-----------------------------------*/
+.fonas
+{
+    background-color: #F6F7F9;
+    position: relative;
+    min-height: 100 vh;
+    padding-bottom: 100 px;
+}
+.tekstas
+{
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+#divas
+{
+    margin-top: 110px;
+}
+#rodykle
+{
+    color:black;
+}
+#rodykle:hover
+{
+    filter:drop-shadow(1px 1px 2px grey)
+} 
+
+#skiltis
+{
+    font-size: 26px;
+}
+.skiltis
+{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: #e57623;
+    font-size: 20px;
+}
+.skiltis p 
+{
+    margin: 0;
+}
+.aprasymas
+{
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.divasd
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+}
+.skiltis1
+{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: #e57623;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#plotis 
+{
+    width:48.7%;
+    border-radius: 10px;
+    
+}
+#nplotis
+{
+    width:100%;
+    border-radius: 10px;
+}
+.nuot
+{
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+.divasap
+{
+    margin-top: 37px;
+    margin-bottom: 7px;
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    width:100%;
+    border-radius: 10px;
+}
+.divasu
+{
+    background-color: white;
+    padding:3%;
+    border-radius: 10px;
+}
+#plotis:hover
+{
+    box-shadow: 2px 2px 12px grey;
+}
+#skiltis3
+{
+    font-size: 20px;
+}
+.data
+{
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: bold;
+}
+.data1
+{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+.skiltis4
+{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.skiltis5
+{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: #e57623;
+    font-size: 20px;
+}
+.skiltis6
+{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18px;
+}
+.divasd:hover, .divasu:hover
+{
+    box-shadow: 2px 2px 12px #E2E3E4;
+}
+.divasd
+{
+    border:none !important;
+    border-radius: 10px !important;
+}
+.rod
+{
+    margin-left: 80%;
+}
+.divasd img 
+{
+    height: 15px; 
+}
+.rod
+{
+    position: absolute;
+    top: -10px;
+    background-color: #3E6AB3;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 50%;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: all 0.5s ease; 
+}
+.divasd:hover .rod
+{
+    top: 0px;
+    opacity: 1;
+}
+#d
+{
+    
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-decoration: none;
+    border:none;
+    text-align: center;
+    padding: 0;
+    margin-right: 7%;
+}
+#d:hover
+{
+    color: #3E6AB3;
+}
+#kaina
+{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 20px;
+}
+.priartinimas p
+{
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.priartinimas img 
+{
+    transition: all 0.4s ease-in-out;
+}
+.priartinimas img:hover
+{
+    transform: scale(1.2);
+}
+/*Pitaikymas------------------------------------*/
+@media (max-width: 991.82px)
+{
+    .logo
+    {
+        width: 60%;
+    }
+    #parastes1
+    {
+        background-color: white;
+        padding: 7%;
+        border-radius: 10px;
+        margin-left:25%;
+        margin-right:25%;
+        margin-bottom:15%;
+        margin-top:25%;
+    }
+    #parastes2
+    {
+        background-color: white;
+        padding: 7%;
+        border-radius: 10px;
+        margin-left:25%;
+        margin-right:25%;
+        margin-bottom:15%;
+        margin-top:7%;
+    }
+    .rod
+    {
+        margin-left: 80%;
+    }
+}
+@media (max-width: 575.98px)
+{
+    #parastes1
+    {
+        background-color: white;
+        padding: 7%;
+        border-radius: 10px;
+        margin-left:5%;
+        margin-right:5%;
+        margin-bottom:15%;
+        margin-top:25%;
+    }
+    #parastes2
+    {
+        background-color: white;
+        padding: 7%;
+        border-radius: 10px;
+        margin-left:5%;
+        margin-right:5%;
+        margin-bottom:15%;
+        margin-top:7%;
+    }
+    p.prisijungimastekstas
+    {
+        font-size: 16px;
+    } 
+    #pr
+    {
+        font-size: 24px;
+    }
+    .pavadinimas
+    {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .tekstas
+    {
+        font-size: 16px;
+    }
+    #skiltis
+    {
+        font-size: 22px;
+    }
+    .skiltis
+    {
+        font-size: 18px;
+    }
+    .skiltis p
+    {
+         padding: 20px;
+    }
+    .skiltis1
+    {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .data p
+    {
+        padding-left: 20px;
+    }
+    .data1
+    {
+        padding-left: 20px;
+        margin-top:0px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .aprasymas p
+    {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .divasd
+    {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .skiltis4
+    {
+        padding-left: 20px;
+        margin-top:20px;
+    }
+    .atsiliepimas textarea
+    {
+        width: 90%;
+        margin-left:5%;
+    }
+    #kaina
+    {
+        font-size: 18px;
+    }
+    .rod
+    {
+        margin-left: 65%;
+    }
+    #plotis 
+    {
+        width:100%;
+    }
+    .parastes
+    {
+        margin-bottom: 30px;
+    }
+    .parastes2
+    {
+        margin-bottom: 10px;
+    }
+    .divasap
+    {
+        margin-left:7px;
+    }
+    .divasu
+    {
+        padding:30px;
+    }
+    .skiltis5
+    {
+        padding-left:20px;
+        padding-top:20px;
+    }
+    .skiltis6
+    {
+        padding-left:20px;
+    }
+    .desine
+    {
+        align-items: center;
+        width: 100%;
+    }
+}
+/*Pritaikymas pabaiga--------------------------*/
+.pranesimas
+{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #e57623;
+}
+.desine
+{
+    margin-left:auto;
+}
+.pav
+{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    font-weight: bold;
+}
